@@ -1,0 +1,110 @@
+.top_search_wrap{width: 100%;height: 68px;background:#f6f6f1;border-bottom: 1px solid #ddd; }
+.top_search{width: 940px;height: 68px;margin:0 auto;position:relative;}
+.logo{float: left;}
+.logo h1 a{font-size: 28px;line-height: 68px;color:#845e5a;font-weight: bold;}
+.sea_form{position:absolute;top:20px;left:130px;height: 30px;}
+.search_text{height: 30px;width: 425px;background: #fff;float: left;border: none;border-radius: 3px;}
+.search_btn{border:none;height: 30px;width: 30px;background: #845e5a;float: left;}
+.sea_form span{color:#fff;}
+.download{position: absolute;top:16px;right: 0;}
+.top_nav_wrap{width: 100%;height: 38px;background: #f6f6f1;}
+.top_nav{width: 940px;margin:0 auto;}
+.navlist li{float: left;margin:0 25px 0 10px;line-height: 38px;}
+.navlist li a{color:#825d5b;}
+.person{position: absolute;width: 150px;height: 250px;border:1px solid #ddd;padding: 10px 10px 0;background: #fff;display: none;z-index: 100;margin-left: 800px;margin-top: 35px;}
+.personact{display: block;}
+.person a p{line-height:30px; color:#a0716f;}
+.person a p span{float: right;color:#3377aa;}
+.hot,.new{position: absolute;top:11px;right: -20px;}
+.navlog{float: right;line-height: 38px;color:#825d5b;}
+.navlog a{color:#825d5b;display: inline-block;margin:0 10px;}
+
+.navlog a span{margin-left: 10px;}
+.wrap{width: 100%;}
+.inner{width: 940px;margin:0 auto;}
+.inner_left{width: 605px;float: left;padding-top: 30px;}
+.inner_right{width: 265px;float: right;}
+.bookdetail{position: relative;margin-bottom: 25px;}
+.bookdetail h4{font-size: 20px;color:#444444;font-weight: bold;margin-top: 6px;margin-bottom: 12px;}
+.bookdetail p{color: #666666;line-height: 20px;}
+.bookdetail span{margin-top: 12px;color: #fa595f;font-size: 14px;}
+.bookdetail span em{color: #666;}
+.bookdetail .book{margin-right: 15px;}
+.read{display: block;margin-top: 25px;}
+.share{position: absolute;top:195px;right:0;}
+.shareicon{position: absolute;top:230px;right:0;z-index: 100;display: none;}
+.shareiconact{display: block;}
+.price{height: 44px;border:1px solid #e0eff4;background: #f6fbfc;padding-left: 15px;margin-bottom: 20px;position: relative;}
+.price .give,.price .add/* ,.price .remove */{background: #333;color: #fff;line-height: 20px;position: absolute;padding: 0 10px;display: none;}
+.price .priceact{display: block;}
+.give{left:555px;top:-30px;}
+.add/* ,.remove */{top:-30px;left:477px;}
+.price span{line-height: 40px;vertical-align:bottom;float: left;}
+.price span em{margin-left: 10px;font-weight: bold;color:#7fa6cc;font-size: 14px;}
+.shopping{display: inline-block;float:right;}
+.buy,.cart,.gift{border: 1px solid #e0eff4;display: inline-block;float: right;}
+.cart{background: url(../images/detail/cart.jpg) ;width: 45px;height: 40px;}
+.directory{position: relative;height: 270px;}
+.directory li{float: left;font-size: 14px;color: #825d5b;border-left: 1px solid #ddd;border-right: 1px solid #ddd;padding-left: 25px;padding-right: 25px;}
+.box{position: absolute;top:40px;left:0;display:none;color:#444444!important;}
+
+.box1 p{margin-bottom: 10px;text-indent: 2em;line-height: 20px;font-size: 14px;}
+.act{display: block;}
+.directory .color{color: #aaa;}
+
+
+.box2{line-height: 24px;}
+.box2 .boxlist li{clear: both;padding-left: 0;padding-right: 0;border-right: 0;border-left: 0;list-style-type:disc;list-style-position:inside;  }
+.boxlist li a{color:#444;font-size: 14px;display: inline-block;}
+.box3 p{font-size: 14px;line-height: 30px;}
+.like{margin-bottom: 30px;}
+.like h3{font-size: 16px;font-weight: bold;margin-bottom: 28px;}
+.likecon{overflow: hidden;}
+.likelist{width: 640px;}
+.likelist li{float: left;margin-right: 35px;}
+.title{color: #825d5b;font-weight: bold;line-height: 24px; }
+.writer{color:#ccc;line-height: 20px;}
+.comment01,.comment02{margin-bottom: 50px;}
+.comment01 h3,.comment02 h3{display: inline-block;font-size: 18px;font-weight: bold;color:#6c4444;float:left;}
+.comment01 h3 span,.comment02 h3 span{color: #bbb;margin-left: 10px;font-size: 16px;}
+.commentlist{position: relative;height: 570px;}
+.commentlist li{float: left;line-height: 20px;padding-left: 10px;padding-right: 10px;color:#825d5b;margin-left: 20px;}
+.commentlist .comact{background: #825d5b;color:#fff;border-radius: 5px;}
+.combox{position: absolute;top:30px;left:0;color:#333;display: none;}
+.comboxact{display: block;}
+.combox01{border-top: 1px solid #ddd;padding-left: 70px;background: url(../images/detail/touxiang01.jpg) no-repeat left 15px;}
+.combox02{border-top: 1px solid #ddd;padding-left: 70px;background: url(../images/detail/touxiang02.jpg) no-repeat left 15px;}
+.combox03{border-top: 1px solid #ddd;padding-left: 70px;background: url(../images/detail/touxiang03.jpg) no-repeat left 15px;}
+.combox04{border-top: 1px solid #ddd;padding-left: 70px;background: url(../images/detail/touxiang04.jpg) no-repeat left 15px;}
+.uname{line-height:40px;color: #9f7776; background: url(../images/detail/star.jpg) no-repeat 50px 15px;}
+.comdetail{line-height: 20px;}
+.date{margin: 10px 0;line-height: 20px;}
+.date span{margin-right: 20px;}
+.right{float: right;}
+.publish{padding-top: 35px;}
+.publish h3{color:#333;font-size: 16px;font-weight: bold;margin-bottom: 20px;}
+.name{padding-left: 60px;background: url(../images/detail/logo.jpg) no-repeat left top;line-height: 45px;font-size: 16px;font-weight: bold;color: #915d5b;margin-bottom: 15px;}
+.pubdetail{line-height: 20px;margin-bottom: 15px;}
+.bookname,.all{line-height: 28px;}
+.device{margin: 30px 0;height: 165px;}
+.device h3,.table h3,.dynamic h3{font-size: 16px;color:#333;font-weight: bold;margin-bottom: 15px;}
+.device a{float: left;}
+.table{height: 90px;}
+.tablist li{float: left;margin-right: 10px;margin-bottom: 8px;}
+.tablist li a{padding: 0 10px;line-height: 24px;color:#936565;background: #ebebe4;display: block;}
+.dynamic{margin-top: 30px;}
+.num1,.num2,.num3,.num4,.num5,.num6{padding-left: 62px;padding-bottom: 13px;margin-bottom: 25px;}
+.username{color: #936565;line-height: 20px;}
+.buydate{line-height: 20px;margin-top: 10px;}
+.buydate span{margin-left: 10px;}
+.num1{background: url(../images/detail/touxiang01.jpg) no-repeat left top}
+.num2{background: url(../images/detail/touxiang02.jpg) no-repeat left top}
+.num3{background: url(../images/detail/touxiang03.jpg) no-repeat left top}
+.num4{background: url(../images/detail/touxiang04.jpg) no-repeat left top}
+.num5{background: url(../images/detail/touxiang05.jpg) no-repeat left top}
+.num6{background: url(../images/detail/touxiang06.jpg) no-repeat left top}
+.bottom{width: 940px;border-top: 1px solid #ddd;clear: both;}
+.bottom p{line-height: 24px;}
+.bottom p .mr{margin-right: 380px;}
+.col a{color: #9f7776;}
+

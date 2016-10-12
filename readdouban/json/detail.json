@@ -1,0 +1,169 @@
+{
+	"one":{
+		"pid":"one",
+		"img":"../images/detail/book1.jpg",
+		"title":"你我之间隔着一朵花",
+		"writer":"作者 鹅小鹅",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 中国人民大学出版社/2016-07",
+		"tigong":"提供方 中国人民大学出版社",
+		"word":"字数 约6,000字",
+		"price":"7.90"
+	},
+	"two":{
+		"pid":"two",
+		"img":"../images/detail/book2.jpg",
+		"title":"我这个普通人的生活",
+		"writer":"作者 张佳伟",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 湖北教育出版社/2016-07",
+		"tigong":"提供方 湖北教育出版社",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+
+	},
+	"three":{
+		"pid":"three",
+		"img":"../images/detail/book3.jpg",
+		"title":"夏目友人帐",
+		"writer":"作者 【日】村井贞之",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"9.90"
+	},
+	"four":{
+		"pid":"four",
+		"img":"../images/detail/book4.jpg",
+		"title":"从你的全世界路过",
+		"writer":"作者 张嘉佳",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约106,000字",
+		"price":"12.90"
+	},
+	"five":{
+		"pid":"five",
+		"img":"../images/detail/book5.jpg",
+		"title":"卡罗尔",
+		"writer":"作者 【美】海史密斯",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约178,000字",
+		"price":"21.50"
+	},
+	"six":{
+		"pid":"six",
+		"img":"../images/detail/book6.jpg",
+		"title":"住在我心里的猴子",
+		"writer":"作者 【美】丹尼尔 史密斯",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约24,000字",
+		"price":"19.90"
+	},
+	"seven":{
+		"pid":"seven",
+		"img":"../images/detail/book7.jpg",
+		"title":"心之道",
+		"writer":"作者 【美】阿伦瓦兹",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"eight":{
+		"pid":"eight",
+		"img":"../images/detail/book8.jpg",
+		"title":"浮生六记",
+		"writer":"作者 [清]沈复著",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 浙江出版集团数字传媒有限公司 / 2014-10",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"nine":{
+		"pid":"nine",
+		"img":"../images/detail/book9.jpg",
+		"title":"这也会过去",
+		"writer":"作者〔西〕米莲娜·布斯克茨",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 北京联合出版公司 / 2016-09",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"ten":{
+		"pid":"ten",
+		"img":"../images/detail/book10.jpg",
+		"title":"女宾",
+		"writer":"作者〔法〕西蒙娜·德·波伏瓦",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"eleven":{
+		"pid":"eleven",
+		"img":"../images/detail/book11.jpg",
+		"title":"最好的我们",
+		"writer":"作者 八月长安",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 湖南文艺出版社 / 2013-08",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"twelve":{
+		"pid":"twelve",
+		"img":"../images/detail/book12.jpg",
+		"title":"苏菲的烦恼",
+		"writer":"作者〔法〕塞居尔伯爵夫人",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"thirteen":{
+		"pid":"thirteen",
+		"img":"../images/detail/book13.jpg",
+		"title":"金字塔",
+		"writer":"作者〔阿尔巴尼亚〕卡达莱",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"fourteen":{
+		"pid":"fourteen",
+		"img":"../images/detail/book14.jpg",
+		"title":"局外人",
+		"writer":"作者〔法〕阿尔贝·加缪 ",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	},
+	"fifteen":{
+		"pid":"fifteen",
+		"img":"../images/detail/book15.jpg",
+		"title":"逆流",
+		"writer":"作者〔法〕若利斯-卡尔·于斯曼",
+		"type":"类别 图书/非虚构",
+		"publish":"出版社 百花洲出版社/2016-07",
+		"tigong":"提供方 博库网",
+		"word":"字数 约6,000字",
+		"price":"15.90"
+	}
+
+}

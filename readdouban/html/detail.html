@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/reset.css"> <!-- 公共样式 -->
+	<link rel="stylesheet" href="../css/detail.css">
+	<script src="../js/jquery_1.11.3.min.js"></script>
+    <script src="../js/detail.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+    <div class="top_search_wrap">
+    	<div class="top_search">
+    		<div class="logo">
+    			<h1><a href="../index.html">豆瓣读书</a></h1>
+    		</div>
+    		<form class="sea_form">
+	    		<input type="text" placeholder="书名/作者/ISBN/出版社" id=search_text class="search_text">
+	    		<input type="button"  id="search_btn" class="search_btn form-control">
+	    		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+	    		<ul class="searchlist" id="searchlist">
+                    <!-- <li><a href=""></a></li> -->
+
+
+                </ul>
+            </form>
+            <div class="download">
+            	<a href=""><img src="../images/detail/download.jpg" alt="" /></a>
+            </div>
+    	</div>
+    </div>
+<!-- 头部导航 -->    
+    <div class="top_nav_wrap">
+    	<div class="top_nav">
+    		<ul class="navlist">
+    			<li><a href="">原创作品</a></li>
+    			<li><a href="">电子图书</a></li>
+    			<li><a href="">专栏</a></li>
+    			<li><a href="">连载</a></li>
+    			<li><a href="">译者项目</a></li>
+    			<li><a href="">征文大赛</a>
+                  <img src="../images/detail/hot.jpg" alt="" class="hot">
+    			</li>
+    			<li><a href="">免费</a></li>
+    			<li><a href="">影视改编</a>
+    			<img src="../images/detail/new.jpg" alt="" class="new"></li>
+    		</ul>
+    		<p class="navlog"><a href="">提醒</a> | <a href="cart.html">购物车<span>0</span></a>|</p>
+    		<div class="person">
+    			<a href="cart.html"><p>余额<span>￥0.00</span></p></a>
+    			<a href="cart.html"><p>礼券<span>0张</span></p></a>
+    			<a href="cart.html"><p>购物车<span>0本</span></p></a>
+    			<a href="cart.html"><p>拥有的作品<span>0本</span></p></a>
+    			<a href="cart.html"><p>个人主页</p></a>
+    			<a href="../index.html"><p>返回豆瓣首页</p></a>
+    			<a href="login.html"><p>退出登录</p></a>
+    		</div>
+    		
+    	</div>
+    </div>
+
+<!-- 主体部分 -->
+	<div class="wrap">
+		<div class="inner">
+		<!-- 主体左部分 -->
+			<div class="inner_left">
+			<!-- 简介 -->
+				<div class="media bookdetail">
+					
+                </div>
+			<!-- 定价 -->		
+			<div class="price">
+				<span>全本定价<em>￥19.50</em></span>
+				<p class="shopping">
+				    <a href="" class="gift"><img src="../images/detail/gift.jpg" alt=""></a>
+					
+					<a href="" class="cart "><!-- <img src="../images/detail/cart.jpg" alt=""> --></a>
+
+
+					<a href="" class="buy"><img src="../images/detail/buy.jpg" alt=""></a>
+					<span class="give ">赠送</span>
+					<span class="add">加入购物车</span>
+					<!-- <span class="remove">移除购物车</span> -->
+				</p>
+			</div>
+             <!-- 选项卡 -->   
+             <div class="introduce">
+               
+             	<ul class="directory">
+             		<li>
+             		  导言
+             		  <div class="box act box1">
+             		  	<p>本书推翻了关于史蒂夫·乔布斯的传说和陈词滥调，比如他是天才和混蛋的结合体，暴躁易怒、自私自利，怠慢朋友与家人。本书揭示了这位苹果联合创始人和CEO的家庭生活与职业生涯，并回答了一个关键问题：为什么如此轻狂傲慢、以至于被赶出苹果的年轻人能成为史上最高效、最具有远见的商业领袖，从而改变几十亿人的生活？</p>
+             		  	<p>
+             		  		布伦特·施兰德和里克·特策利通过可靠的信息来源，甚至是独家渠道，还原了真实的史蒂夫，描绘他如何将自身的优点发挥到极致并与缺点作斗争。生动有趣的故事来源于最了解乔布斯的人，包括他的家人以及苹果、皮克斯和迪斯尼的高管团队成员，特别是蒂姆·库克、乔尼·艾维、埃迪·库埃、埃德·卡特穆尔、约翰·雷斯特和鲍勃·伊戈尔，他们愿意向作者敞开心扉，聊一聊他们心目中的史蒂夫。
+             		  	</p>
+             		  </div>
+             		</li>
+             		<li>
+             		  目录
+             		  <div class="box box2">
+             		  	<ul class="boxlist" >
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  		<li><a href="">第一章</a></li>
+             		  	</ul>
+             		  </div>
+             		</li>
+             		<li>
+             		  作品信息
+             		  <div class="box box3">
+             		  	<p>作者 鹅小鹅</p>
+             		  	<p>类别 图书/非虚构</p>
+             		  	<p>提供方 中信出版社</p>
+             		  </div>
+             		</li>
+             	</ul>
+               	
+             </div>
+         <!-- 喜欢这本书的人也喜欢 -->
+         <div class="like">
+         	<h3>喜欢这本书的人也喜欢</h3>
+          <div class="likecon">	
+         	<ul class="likelist">
+         		<li>
+         		   <a href="">
+         			 <img src="../images/detail/likebook.jpg" alt="" />
+         		   </a>
+         		   <p class="title">柳永词集</p>
+         		   <p class="writer">柳永</p>
+         		   <p class="writer">6.00元</p>
+         		   </li>
+         		   <li>
+         		   <a href="">
+         			 <img src="../images/detail/likebook.jpg" alt="" />
+         		   </a>
+         		   <p class="title">柳永词集</p>
+         		   <p class="writer">柳永</p>
+         		   <p class="writer">6.00元</p>
+         		   </li>
+         		   <li>
+         		   <a href="">
+         			 <img src="../images/detail/likebook.jpg" alt="" />
+         		   </a>
+         		   <p class="title">柳永词集</p>
+         		   <p class="writer">柳永</p>
+         		   <p class="writer">6.00元</p>
+         		   </li>
+         		   <li>
+         		   <a href="">
+         			 <img src="../images/detail/likebook.jpg" alt="" />
+         		   </a>
+         		   <p class="title">柳永词集</p>
+         		   <p class="writer">柳永</p>
+         		   <p class="writer">6.00元</p>
+         		   </li>
+         		   <li>
+         		   <a href="">
+         			 <img src="../images/detail/likebook.jpg" alt="" />
+         		   </a>
+         		   <p class="title">柳永词集</p>
+         		   <p class="writer">柳永</p>
+         		   <p class="writer">6.00元</p>
+         		   </li>
+         	</ul>
+          </div>	
+         </div>    
+     <!-- 评论 -->
+       <div class="comment01">
+       	 <h3>评论<span>5</span></h3>
+       	 <ul class="commentlist">
+       	 	<li class="comact">有用
+                <div class="combox comboxact">
+                	<div class="combox01">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox01">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox01">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox01">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox01">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                </div>
+       	 	</li>
+       	 	<li>最新
+                <div class="combox">
+                	<div class="combox02">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox02">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox02">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox02">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                	<div class="combox02">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0回应</span> <span>2有用</span></p>
+                	</div>
+                </div>
+       	 	</li>
+       	 </ul>
+       </div>
+
+ <!-- 来自豆瓣的评论 -->
+     <div class="comment02">
+       	 <h3>来自豆瓣的评论<span>20</span></h3>
+       	 <ul class="commentlist">
+       	 	<li class="comact">有用
+                <div class="combox comboxact">
+                	<div class="combox03">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox03">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox03">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox03">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox03">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                </div>
+       	 	</li>
+       	 	<li>最新
+                <div class="combox">
+                	<div class="combox04">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox04">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox04">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox04">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                	<div class="combox04">
+                		<p class="uname">洋娃娃</p>
+                		<p class="comdetail">简短深刻温暖，看了两遍，有种想抄下来的冲动，非常暖心。</p>
+                		<p class="date"><span>2016-09-22 </span><span>0有用</span> <span class="right">中国人们大学出版社2016版</span></p>
+                	</div>
+                </div>
+       	 	</li>
+       	 </ul>
+       </div>
+
+
+  </div>
+			<!-- 主体右部分 -->
+			<div class="inner_right">
+			<!-- 出版方 -->
+				<div class="publish">
+					<h3>出版方</h3>
+					<p class="name">中国人民大学出版社</p>
+					<p class="pubdetail">中国人民大学出版社成立于1955年，是新中国成立后成立的第一件出版社。时光在文字与光阴中驻足，我们在集聚书香与传承文脉之时，也有一点小小的向往，在徜徉中拢住自我与他者的眼光，给天下读书者一点点温暖。</p>
+					<p class="all">全部作品（1210）</p>
+					<p class="bookname">服从力</p>
+					<p class="bookname">冬韵奥林匹克</p>
+					<p class="bookname">对大数据说不</p>
+					<p class="bookname">卸妆芈月</p>
+					<p class="bookname">互联网领导思维</p>
+				</div>
+			<!-- 适用阅读设备 -->
+				  <div class="device">
+				   <h3>适用阅读设备</h3>
+					<a href=""><img src="../images/detail/device.jpg" alt="" /></a>
+					<a href=""><img src="../images/detail/code2.jpg" alt="" /></a>
+				  </div>	
+			<!-- 作品标签 -->
+				<div class="table">
+					<h3>作品标签</h3>
+					<ul class="tablist">
+						<li><a href="">诗歌<span>1505</span></a></li>
+						<li><a href="">励志<span>2415</span></a></li>
+						<li><a href="">成长<span>2290</span></a></li>
+						<li><a href="">绘本<span>384</span></a></li>
+					</ul>
+				</div>
+			<!-- 译者动态 -->
+				<div class="dynamic">
+				  <h3>译者动态</h3>
+					<div class="num1">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<div class="num2">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<div class="num3">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<div class="num4">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<div class="num5">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<div class="num6">
+						<p class="username">
+							可爱的鬼鬼2016
+						</p>
+						<p class="buydate">9月24日<span>购买</span></p>
+					</div>
+					<p class="commentnum">71人评论</p>
+				</div>
+			</div>
+			<!-- 底部 -->
+			<div class="bottom">
+				<p>
+				<span class="mr">&copy;2005-2016 douban.com,all rights reseved </span>
+					<span class="col"><a href=""> 联系我们 · 版权声明 · 使用反馈 · 常见问题 · 来这里工作</a></span>
+				</p>
+				<p>网络视听许可证0110418号 文网文【2009】267号 新出网证（京）字129号</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

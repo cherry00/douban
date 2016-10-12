@@ -1,0 +1,88 @@
+.top_search_wrap{width: 100%;height: 68px;background:#f6f6f1;border-bottom: 1px solid #ddd; }
+.top_search{width: 940px;height: 68px;margin:0 auto;position:relative;}
+.logo{float: left;}
+.logo h1 a{font-size: 28px;line-height: 68px;color:#845e5a;font-weight: bold;}
+.sea_form{position:absolute;top:20px;left:130px;height: 30px;}
+.search_text{height: 30px;width: 425px;background: #fff;float: left;border: none;border-radius: 3px;}
+.search_btn{border:none;height: 30px;width: 30px;background: #845e5a;float: left;}
+.sea_form span{color:#fff;}
+.download{position: absolute;top:16px;right: 0;}
+.top_nav_wrap{width: 100%;height: 38px;background: #f6f6f1;}
+.top_nav{width: 940px;margin:0 auto;position: relative;}
+.navlist li{float: left;margin:0 25px 0 10px;line-height: 38px;position: relative;}
+.navlist li a{color:#825d5b;}
+.person{position: absolute; top:36px;left:780px;width: 150px;height: 250px;border:1px solid #ddd;padding: 10px 10px 0;background: #fff;display: none;z-index: 100;}
+.personact{display: block;}
+.person a p{line-height:30px; color:#a0716f;}
+.person a p span{float: right;color:#3377aa;}
+.hot,.new{position: absolute;top:11px;right: -20px;}
+.navlog{float: right;line-height: 38px;color:#825d5b;}
+.navlog a{color:#825d5b;display: inline-block;margin:0 10px;}
+
+.navlog a span{margin-left: 10px;}
+
+.content{width: 940px;margin:30px auto;}
+.content_left{width: 195px;float: left;margin-bottom: 30px;}
+.content_right{width: 700px;float: right;margin-bottom: 30px;}
+.cartlist li {line-height: 38px;border-bottom: 1px solid #ddd;padding: 0 10px;margin-bottom: 1px;}
+.cartlist li a{color:#845e5a;}
+.cartlist li a span{float: right;color:#6577a5;}
+.cartlist .cur{background: #f2f2ec;}
+.content_right h3{font-size: 24px;font-weight: bold;color: #333;margin-bottom: 30px;}
+.cartpro{margin-bottom: 30px;}
+.cartpro tr{height: 36px;line-height: 36px;}
+.cartpro th,.cartpro th label{font-size: 14px;}
+.selectall,.td-select{width: 60px;}
+.td-select{width: 40px;padding-left: 20px;}
+.th-name,.td-name{width: 400px;}
+.th-num,.th-price,.th-op,.td-num,.td-price,.td-op,.th-totalprice,.td-totalprice{width: 60px;text-align: center;}
+tbody tr{background: #e6e6dd;color:#a0716f;}
+.td-name span{color:#ccc;margin-left: 10px;}
+.probottom{height: 50px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;background: #f7f7ef;position: relative;}
+.bot_left{float: left;line-height: 50px;margin-right: 245px;}
+.bot_left span,.check{font-size: 14px;}
+.bot_left span{margin-left: 10px;}
+.choose,.total,.pay{display: inline-block;font-size: 14px;}
+.choose,.total{margin-right: 20px;line-height: 50px;}
+.probottom span{color:#a0716f;}
+.choose span{font-size: 16px;}
+.total span{font-size: 20px;}
+
+.pay img{position: absolute;top:10px;left:600px;}
+
+
+
+
+
+
+.bottom{width: 940px;border-top: 1px solid #ddd;clear: both;clear: both;}
+.bottom p{line-height: 24px;}
+.bottom p .mr{margin-right: 380px;}
+.col a{color: #9f7776;}
+
+
+.shade{width: 100%;height: 100%;position: fixed;right:0;top:0;left:0;bottom:0;margin:auto;background: #000;opacity: 0.9;filter:alpha(opacity:90);z-index: 1000;         display: none;                             }
+.shadeact{display: block;}
+.model{width: 626px;height: 465px;background: #fffff9;position: fixed;right:0;top:0;left:0;bottom:0;margin:auto;z-index: 1100;}
+.model h3{height: 42px;background: #834e4e;font-size: 16px;color: #fff;line-height: 42px;padding-left: 20px;}
+.model h3 span{margin-left: 520px;}
+.details{padding:20px 20px 10px;height: 170px;border-bottom: 1px solid #ddd;}
+.details_left{border-right: 1px solid #ddd;height: 137px;width: 280px;float: left;}
+.details_left p{font-size: 14px;}
+.details_left p span{font-size: 14px;}
+.details_right{padding-left: 50px;}
+.details_right p{line-height: 45px;border-bottom: 1px solid #ddd;width: 250px;float: right;padding-left: 80px;font-size: 14px;}
+.details_right p span{float: right;font-size: 20px;}
+.details_right .balance span{font-size: 12px;color: #71ceb5;}
+.details_right .payment span{color:#fa595f;}
+
+.method{padding-left: 20px;height: 130px;border-bottom: 1px solid #ddd;}
+.method p{color:#444444;line-height: 45px;font-weight: bold;}
+.method input{display: block;margin-bottom: 5px;}
+.apliypay{float: left;margin-right: 40px;}
+.perinfo{height: 44px;border-bottom: 1px solid #ddd;padding-left: 20px;}
+.perinfo p{color: #ccc;line-height: 44px;}
+.perinfo p span{margin-right: 20px;}
+.see{margin-top: 20px;padding-left: 20px;padding-right: 20px;}
+.see span{float: right;}
+.see span a{display: inline-block;margin-left: 20px;}

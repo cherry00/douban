@@ -1,0 +1,31 @@
+.main{width: 955px;margin:0 auto;}
+.main_left{width: 645px;padding-top: 35px;float: left;position: relative;}
+.main_left h3 a{font-size: 24px;line-height: 80px;font-weight: 100;display: block;color: #333;}
+.main_left p{margin:10px 0;}
+.main_left p span{display:inline-block;width: 65px;margin-right: 16px;}
+.main_left p input{border:0;border:1px solid #ddd;height: 28px;width: 208px;border-radius: 5px;}
+.main_left p span label{float: right;font-size: 14px;}
+.name{color:#ccc;line-height: 38px;padding-left: 81px;}
+.main_left .yanzheng input{width: 102px;margin-right: 3px;}
+.main_left p em{color: #ccc;}
+.main_left p em i{color: #333;}
+.main_left p  b{color: #336699;}
+.main_left .check{padding-left: 81px;margin-top: 55px;margin-bottom: 20px;}
+.main_left .check input{width: 12px;height: 12px;}
+.register button{width: 80px;height: 28px;border:0;border:1px solid #aaa;color: #999999;font-weight: bold;font-size: 16px;border-radius: 5px;background: #ccc;}
+.register .active{background: #3fa156;color:#fff;}
+.register{padding-left: 81px;}
+.bottom{border-top: 1px dashed #ddd;margin-top: 50px;line-height: 24px;clear:both;}
+.mr{margin-right: 220px;}
+.main_right{width: 300px;float: right;padding-top: 170px;}
+.main_right p{line-height: 32px;}
+
+.city{position:absolute;top:360px;left:250px;width: 560px;border:10px solid #ddd;z-index: 100;display: none;}
+.address{height: 50px;background: #ebf5eb;line-height: 50px;padding-left: 20px;font-size: 16px;color:#93b77b;}
+.address span{display: inline-block;width: 20px;height: 20px;margin-left: 380px;line-height: 20px;text-align: center;cursor: pointer;}
+.city ul{position: relative;padding-left: 20px;min-height: 150px;background: #fff;}
+.city ul li{float: left;width: 100px;height: 20px;margin:20px 0;text-align: center;border-radius: 50px;line-height: 20px;}
+.act{background: #93b77b;color:#fff;}
+.box{position: absolute;top:60px;left:20px;color:#85d3ff;display: none;text-align: left;z-index: 100;}
+.con1 .box{display: block;}
+.box a{display: inline-block;margin-right: 10px;}
