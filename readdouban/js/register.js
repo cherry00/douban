@@ -21,6 +21,8 @@ $(function () {
  		
  		window.location.href="login.html";
  	}
+}else {
+	$(".form p:first").find("em").html("此邮箱已注册")
 }
  	
  	return false;
