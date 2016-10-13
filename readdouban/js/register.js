@@ -1,6 +1,6 @@
 $(function () {
 	//勾选框
-	
+	//console.log($.cookie("email"))
 	 $(".form").on("submit",function () {
  	
  
@@ -10,6 +10,7 @@ $(function () {
  	var phone=$("#phone");
  	
 
+   if(email.val()!=$.cookie("email")){
  	check(email,psw,username,phone)
  	var cookieemail=JSON.stringify($.cookie("email"));
  	var cookiepassword=JSON.stringify($.cookie("password"));
@@ -20,7 +21,7 @@ $(function () {
  		
  		window.location.href="login.html";
  	}
-
+}
  	
  	return false;
  	
@@ -35,6 +36,8 @@ $(function () {
  	var re3 = /^[a-zA-Z0-9]\w{7,14}$/;
  	var re4 = /^1\d{10}$/;
  	if(re1.test(obj1.val())){//邮箱验证
+ 		
+
 		 obj1.siblings('em').html("邮箱正确")
       
 
