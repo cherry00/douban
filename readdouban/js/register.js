@@ -1,6 +1,5 @@
 $(function () {
 	//勾选框
-	//console.log($.cookie("email"))
 	 $(".form").on("submit",function () {
  	
  
@@ -10,12 +9,12 @@ $(function () {
  	var phone=$("#phone");
  	
 
-   if(email.val()!=$.cookie("email")){
+   if(email.val()!=localStorage.getItem("email")){
  	check(email,psw,username,phone)
- 	var cookieemail=JSON.stringify($.cookie("email"));
- 	var cookiepassword=JSON.stringify($.cookie("password"));
- 	var cookieusername=JSON.stringify($.cookie("username"));
- 	var cookiephone=JSON.stringify($.cookie("phone"));
+ 	var cookieemail=JSON.stringify(localStorage.getItem("email"));
+ 	var cookiepassword=JSON.stringify(localStorage.getItem("password"));
+ 	var cookieusername=JSON.stringify(localStorage.getItem("username"));
+ 	var cookiephone=JSON.stringify(localStorage.getItem("phone"));
     
  	if(cookieemail!=undefined&&cookiepassword!=undefined&&cookieusername!=undefined&&cookiephone!=undefined){
  		
@@ -52,10 +51,10 @@ $(function () {
           
 	            if(re4.test(obj4.val())){//手机号验证
 				obj4.siblings('em').html("手机号正确")
-	            $.cookie("phone",obj4.val(),{expires:7,path:"/"});
-	            $.cookie("email",obj1.val(),{expires:7,path:"/"});
-	            $.cookie("username",obj3.val(),{expires:7,path:"/"});
-	            $.cookie("password",obj2.val(),{expires:7,path:"/"});
+	            localStorage.setItem("phone",obj4.val());
+	            localStorage.setItem("email",obj1.val());
+	            localStorage.setItem("username",obj3.val());
+	            localStorage.setItem("password",obj2.val());
 		}else{
 			obj4.siblings('em').html("您输入的手机号不正确，请重新输入")
 			

@@ -1,7 +1,7 @@
 $(function (argument) {
 
 //登录后显示用户名
-	var user=$.cookie("username2")
+	var user=localStorage.getItem("username2")
 	if(user!=undefined){
 		$("<a href='##'>"+user+"</a>").appendTo('.navlog')
 	}else{
@@ -11,7 +11,7 @@ $(function (argument) {
 		})
 	}
 $(".person a:eq(6)").click(function(){
-	$.removeCookie("username2",{path:"/"});
+	localStorage.removeItem("username2");
 })
 
 
@@ -49,8 +49,8 @@ var num1=0;
 var price1=0;
 var tprice1=0;
 
-//console.log($.cookie("cart"))
-if($.cookie("cart")!=undefined){
+
+if(localStorage.getItem("cart")!=undefined){
 
 
 
@@ -61,9 +61,9 @@ $.ajax({
 })
 .done(function(data) {
 	
-	var cookieobj=JSON.parse($.cookie("cart"));
-    // console.log(cookieobj)
-    // console.log($.cookie("cart"))
+	var cookieobj=JSON.parse(localStorage.getItem("cart"));
+     console.log(cookieobj)
+    
     $.each(cookieobj,function(key,value){
     	
     	bookprice=(value*data[key].price).toFixed(2) ;
@@ -150,7 +150,7 @@ $.ajax({
         delete cookieobj[index];
        
         var objtostr=JSON.stringify(cookieobj);
-        $.cookie("cart",objtostr,{expires:7,path:"/"});
+        localStorage.setItem("cart",objtostr);
         $(this).parent(".cell").remove();
         
 
@@ -178,7 +178,7 @@ $(".shop_cart").find("span").html(num1);
 $(".value span").html($(".total").find("span").html());
 $(".payment span").html($(".total").find("span").html());
 $(".details_left p span:eq(1)").html($(".shop_cart").find("span").html())
-$(".perinfo p span:first").html($.cookie("username2"))
+$(".perinfo p span:first").html(localStorage.getItem("username2"))
 if($(".td-name:first").html()!=undefined){
 var bookname1=$(".td-name:first").html()
 var bookname2=bookname1.split("<span>")[0];
@@ -210,7 +210,7 @@ $(".cartlist li:eq(1) span").html($(".navlog a:eq(1) span").html()+"本")
 $(".value span").html($(".total").find("span").html());
 $(".payment span").html($(".total").find("span").html());
 $(".details_left p span:eq(1)").html($(".shop_cart").find("span").html())
-$(".perinfo p span:first").html($.cookie("username2"))
+$(".perinfo p span:first").html(localStorage.getItem("username2"))
 if($(".td-name:first").html()!=undefined){
 var bookname1=$(".td-name:first").html()
 var bookname2=bookname1.split("<span>")[0];
@@ -219,7 +219,7 @@ $(".details_left p span:eq(0)").html("《"+bookname2+"》")
 //左侧购物车数量赋值======================================
 $(".cartlist li:eq(1) span").html($(".navlog a:eq(1) span").html()+"本")
 
-//console.log($.cookie("cart"))
+
 
 
 

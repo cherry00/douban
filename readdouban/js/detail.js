@@ -1,6 +1,6 @@
 $(function (argument) {
 //登录后显示用户名
-	var user=$.cookie("username2")
+	var user=localStorage.getItem("username2")
 	if(user!=undefined){
 		$("<a href='##'>"+user+"</a>").appendTo('.navlog')
 	}else{
@@ -10,7 +10,7 @@ $(function (argument) {
 		})
 	}
 $(".person a:eq(6)").click(function(){
-	$.removeCookie("username2",{path:"/"});
+	localStorage.removeItem("username2");
 })
 	
 
@@ -92,8 +92,8 @@ $(".person a:eq(6)").click(function(){
    	$(this).siblings('.shareicon').toggleClass('shareiconact');
   	 })	
      //加入购物车 
-      if($.cookie("cart")){
-            	var obj=JSON.parse($.cookie("cart"))
+      if(localStorage.getItem("cart")){
+            	var obj=JSON.parse(localStorage.getItem("cart"))
             }else{
             	var obj={};
             }
@@ -108,8 +108,8 @@ $(".person a:eq(6)").click(function(){
     // obj[1]=title;
     // obj[2]=writer;
     var objtostr=JSON.stringify(obj);
-    $.cookie("cart",objtostr,{expires:7,path:"/"});
-    // var cookieobj=JSON.parse($.cookie("cart"));
+    localStorage.setItem("cart",objtostr);
+    // var cookieobj=JSON.parse(localStorage.getItem("cart"));
     // console.log(cookieobj)
 
 

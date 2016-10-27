@@ -92,7 +92,7 @@ $(".top_nav_right li:first").on("mouseover mouseout",function(event) {
 
 
 //用cookie变用户名
-var user=$.cookie("username2")
+var user=localStorage.getItem("username2")
 
 if(user!=undefined){
 $("<a href='javascript:void(0)'><span>"+user+"</span></a>").prependTo($(".top_nav_right li:eq(2)"));
@@ -113,7 +113,7 @@ $(".top_nav_right li:eq(2)").click(function(){
 	$(".pcenter").toggleClass('pcentershow')
 })
 $(".pcenter li:eq(1)").click(function(){
-	$.removeCookie("username2",{path:"/"});
+	localStorage.removeItem("username2");
 })
 
 
